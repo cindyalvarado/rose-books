@@ -1,14 +1,13 @@
+import './text.css'
 
-
-
-const Header = (props) => {
+const Text = ({ className, text }) => {
   return (
-    <div>
-        {props.text}
+    <div className={`${className} text`} >
+      {text}
     </div>
   );
 }
 
 
 
-export default Header;
+export default Text;
