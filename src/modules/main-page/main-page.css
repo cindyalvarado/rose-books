@@ -1,0 +1,25 @@
+.main-container {
+    background-image: url("../../assets/main-page.png");
+    height: 1800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.container { 
+    background-color: #474121;
+}
+
+/* Mobile size */
+@media (max-width: 400px) {
+
+}
+
+/* Tablet size */
+@media (max-width: 768px) {   
+}
+
+/* Desktop size */
+@media (max-width: 1200px) {
+    
+}
