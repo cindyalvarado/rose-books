@@ -1,9 +1,7 @@
-.title {
+.title-books{
   position: absolute;
   height: min-content;
-  width: 150px;
-  top: 11%;
-  left: 37%;
-  right: 0;
-  bottom: 0;
+  top: 50%;
+  left: 30%;
+  transform: rotate(-15deg);
 }

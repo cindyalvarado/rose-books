@@ -4,6 +4,15 @@
   width: 150px;
   top: 11%;
   left: 37%;
-  right: 0;
-  bottom: 0;
+ 
+}
+.leaf{
+  position:absolute;
+  top: -14.5%;
+  left: 57.8%;
+}
+.points{
+  position: absolute;
+  top: 50%;
+  left: 20%;
 }

@@ -1,0 +1,25 @@
+.title-trailers {
+    position: absolute;
+    height: min-content;
+    top:39.5%;
+    left: 40%;
+    right: 0;
+}
+
+.img-trailers {
+  max-width: 90vw;
+  margin-right: 3rem;
+}
+
+@media (min-width: 992px) {
+  .img-trailers {
+    max-width: 50vw;
+  }
+  .title-trailers {
+    position: absolute;
+    height: min-content;
+    top:39.5%;
+    left: 45%;
+    right: 0;
+  }
+}

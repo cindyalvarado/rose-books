@@ -1,11 +1,10 @@
-const ImageLink = ({ children, className }) => {
+import './styles.css'
+
+const ImageLink = ({ children, className, style }) => {
   return (
     <a
-      className={`d-flex align-items-center justify-content-center ${className}`}
-      style={{
-        flex: 1,
-        position: 'relative'
-      }}
+      className={`image-link d-flex align-items-center justify-content-center ${className}`}
+      style={{...style}}
     >
       {children}
     </a>

@@ -1,10 +1,5 @@
 .main-container {
     background-image: url("../../assets/main-page.png");
-    background-size: contain;
     background-repeat: repeat;
     background-position-x: center;
-}
-
-.container { 
-    background-color: #474121;
 }
