@@ -1,17 +1,18 @@
-import Header from "../../components/text";
+import Text from "components/text";
+import Books from "./books";
 import "./main-page.css"
+import RosePortrait from "./rose-portrait";
+import PageContainer from "components/page-container"
 
 const MainPage = () => {
   return (
-    <div className="container">
-        <div className="row">
-            <div className="main-container col-12">
-                <Header
-                text='Rose K. Beira'
-                />
-            </div>
-        </div>
-    </div>
+    <PageContainer className="main-container">
+      <Text text='Rose K. Beira' />
+      <div className="d-flex flex-column-reverse flex-lg-row mt-5">
+        <Books />
+        <RosePortrait />
+      </div>
+    </PageContainer>
   );
 }
 
