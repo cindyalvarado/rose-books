@@ -1,10 +1,13 @@
-import BooksPicture from 'assets/book.png'
+import BooksPicture from 'assets/book-gif.gif'
 import ImageLink from 'components/image-link'
+import Text from 'components/text'
+import './styles.css'
 
 const Books = ({ className }) => {
   return (
     <ImageLink>
-      <img style={{ height: '60%' }} src={BooksPicture} />
+      <Text className="title-books" text="livres"/>
+      <img src={BooksPicture} />
     </ImageLink>
   )
 }
