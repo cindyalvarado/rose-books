@@ -1,5 +1,5 @@
 import Text from "components/text";
-import PageContainer from "components/page-container"
+import PageContainer from "containers/page-container"
 import Books from "./books";
 import RosePortrait from "./rose-portrait";
 import Editors from "./editors";
