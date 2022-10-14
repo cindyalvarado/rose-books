@@ -1,0 +1,29 @@
+.subtitle-birds {
+  position: relative;
+}
+
+.subtitle-points-img {
+  position: absolute;
+  right: 500px;
+  top: 10px;
+  transform: rotate(60deg);
+}
+
+.subtitle-birds-img {
+  position: absolute;
+}
+
+@media (max-width: 576px) {
+  .subtitle-birds-img {
+    position: absolute;
+    width: 200px;
+  }
+
+  .subtitle-points-img {
+    position: absolute;
+    right: 300px;
+    top: 10px;
+    transform: rotate(60deg);
+    width: 300px;
+  }
+}

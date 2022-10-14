@@ -1,0 +1,9 @@
+.points-img {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 992px) {
+  .points-img {
+    margin-bottom: -250px;
+  }
+}

@@ -1,5 +1,43 @@
 .main-container {
-    background-image: url("../../assets/main-page.png");
-    background-repeat: repeat;
-    background-position-x: center;
+  background-image: url("../../assets/main-page.png");
+  background-repeat: repeat;
+  background-position-x: center;
+}
+
+.main-subtitle {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.main-title {
+  font-size: 24px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+@media (min-width: 576px) {
+  .main-subtitle {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 48px;
+    text-align: left;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-subtitle {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 48px;
+    text-align: left;
+    padding-left: 40px;
+  }
 }

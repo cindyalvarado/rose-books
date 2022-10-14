@@ -1,34 +1,39 @@
 .nav-link {
   font-size: 28px;
-  color:black;
+  color: black;
   font-family: "Caveat-Regular";
   line-height: 40px;
 }
 
 .nav-link-active {
-    font-size: 28px;
-    color:black;
-    font-family: "Caveat-Regular";
-    font-weight: 600;
-    text-decoration: none;
-    line-height: 40px;
-    padding: 0.5rem 1rem;
+  font-size: 28px;
+  color: black;
+  font-family: "Caveat-Regular";
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 40px;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
-    font-size: 32px;
-    color:black;
-    font-family: "Caveat-Regular";
+  font-size: 32px;
+  color: black;
+  font-family: "Caveat-Regular";
 }
 
 nav {
-    height: 60px;
+  height: 60px;
 }
 
-.img-nav{
-    width: 84px;
-    height: 40px;
+.img-nav {
+  width: 84px;
+  height: 40px;
 }
-.nav-phone{
-    background-color: #fffff3;
+
+.nav-phone {
+  background-color: #fffff3;
+}
+
+.z-100 {
+  z-index: 100;
 }
