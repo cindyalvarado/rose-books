@@ -1,0 +1,55 @@
+.carousel-wrapper-custom {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 500px;
+}
+
+.carousel-arrow {
+  height: 70px;
+  width: 50px;
+  padding: 4px;
+}
+
+.carousel-custom {
+  overflow: hidden;
+  flex: 1;
+  box-shadow: 10px 10px 24px 0px rgba(122, 122, 122, 0.8);
+}
+
+.inner-custom {
+  white-space: nowrap;
+  transition: transform 1s;
+}
+
+.carousel-item-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: #fffff3;
+  color: #fff;
+  width: 100%;
+}
+
+.carousel-item-content {
+  width: inherit;
+  height: inherit;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-content-header {
+  display: flex;
+  width: inherit;
+  max-height: 40px;
+  justify-content: space-around;
+}
+
+.carousel-text {
+  max-width: 500px;
+  white-space: pre-line;
+  font-size: 16px;
+  padding: 10px;
+}

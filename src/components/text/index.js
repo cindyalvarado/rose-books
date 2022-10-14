@@ -1,13 +1,6 @@
-import './text.css'
+import Text from './Text'
+import TextBold from './TextBold'
+import TextNormal from './TextNormal'
+import TextNormalGrey from './TextNormalGrey'
 
-const Text = ({ className, text }) => {
-  return (
-    <div className={`${className} text`} >
-      {text}
-    </div>
-  );
-}
-
-
-
-export default Text;
+export { Text, TextBold, TextNormal, TextNormalGrey };

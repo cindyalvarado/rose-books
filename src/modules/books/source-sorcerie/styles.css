@@ -1,0 +1,9 @@
+.source-sorcerie {
+  margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .source-sorcerie {
+    margin-left: 50px;
+  }
+}

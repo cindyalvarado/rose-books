@@ -1,0 +1,10 @@
+.shop-now {
+  position: relative;
+}
+
+.shop-price {
+  position: absolute;
+  min-width: 100px;
+  top: 52%;
+  left: 60%;
+}
