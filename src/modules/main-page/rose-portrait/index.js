@@ -7,7 +7,7 @@ import './styles.css'
 
 const RosePortrait = ({ className }) => {
   return (
-    <ImageLink>
+    <ImageLink to="/about">
       <Text className="title" text="à propos" />
       <img src={Leaf} className="leaf" alt="leaf" />
       <img src={Points} className="points" alt="points" />
