@@ -6,7 +6,7 @@ import './styles.css'
 
 const Editors = ({ className }) => {
   return (
-    <ImageLink>
+    <ImageLink to="/team">
       <Text className="title-editors" text="équipe éditoriale" />
       <img src={Moon} alt="moon" />
     </ImageLink>

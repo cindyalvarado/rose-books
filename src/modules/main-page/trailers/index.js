@@ -6,7 +6,7 @@ import './styles.css'
 
 const Trailers = ({ className }) => {
   return (
-    <ImageLink>
+    <ImageLink to="/announcements">
       <Text className="title-trailers" text="Bandes annonces" />
       <img className="img-trailers" src={Pineapple} alt="img-trailers" />
     </ImageLink>

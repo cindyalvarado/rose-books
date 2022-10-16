@@ -28,11 +28,3 @@
   z-index: 100;
   text-align: justify;
 }
-
-@media (max-width: 578px) {
-  .text {
-    font-size: 28px;
-    color: black;
-    font-family: "Caveat-Regular";
-  }
-}
