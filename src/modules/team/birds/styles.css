@@ -1,0 +1,24 @@
+.team-birds {
+  position: relative;
+}
+
+.team-points-img {
+  position: absolute;
+  top: 5%;
+}
+
+.team-birds-img {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+@media (max-width: 768px) {
+  .team-birds-img {
+    display: none;
+  }
+
+  .team-points-img {
+    display: none;
+  }
+}
