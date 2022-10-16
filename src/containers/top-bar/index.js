@@ -69,7 +69,7 @@ function TopBar() {
           <Navigation className="d-flex-column" />
         </ReactSlidingPane>
       </div>
-      <Navigation className="d-md-flex d-none justify-content-end w-100" />
+      <Navigation className="z-100 d-md-flex d-none justify-content-end w-100" />
     </nav>
   )
 }
