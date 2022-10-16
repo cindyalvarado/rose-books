@@ -1,0 +1,53 @@
+.announcements-pineapple {
+  position: absolute;
+  left: 0;
+  top: 80%;
+  left: 75%;
+}
+
+.announcements-pineapple-img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+@media (max-width: 992px) {
+  .announcements-pineapple {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    left: 70%;
+  }
+
+  .announcements-pineapple-img {
+    max-height: 350px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .announcements-pineapple {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    left: 75%;
+  }
+
+  .announcements-pineapple-img {
+    max-height: 250px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 578px) {
+  .announcements-pineapple {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    left: 75%;
+  }
+
+  .announcements-pineapple-img {
+    max-height: 200px;
+    max-width: 400px;
+  }
+}
