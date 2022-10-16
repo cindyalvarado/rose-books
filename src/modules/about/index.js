@@ -1,4 +1,4 @@
-import { Text, TextBold, TextNormal } from "components/text";
+import { TextBold, TextNormal } from "components/text";
 import PageContainer from "containers/page-container"
 import Birds from "./birds";
 import FunFact from "./fun-fact";

@@ -1,0 +1,79 @@
+.announcements-page {
+  background-image: url("../../assets/books-bg.png");
+  background-repeat: repeat;
+  background-position-x: center;
+}
+
+.announcements-text {
+  position: absolute;
+  font-size: 60px;
+  top: 7%;
+}
+
+.video-wrapper {
+  position: relative;
+  margin-top: 200px;
+}
+
+.announcements-video {
+  z-index: 100;
+  position: absolute;
+  top: 20%;
+  width: 80%;
+  left: 15%;
+}
+
+.video-bg {
+  height: 900px;
+  width: 1250px;
+}
+
+@media (max-width: 992px) {
+  .announcements-text {
+    position: absolute;
+    font-size: 48px;
+    top: 5%;
+  }
+
+  .announcements-video {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+  }
+
+  .video-bg {
+    height: 800px;
+    width: 992px;
+  }
+
+  .video-wrapper {
+    position: relative;
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-bg {
+    height: 600px;
+    width: 992px;
+  }
+}
+
+@media (max-width: 576px) {
+  .announcements-video {
+    position: absolute;
+    top: 25%;
+    width: 90%;
+    left: 5%;
+  }
+
+  .video-bg {
+    height: 500px;
+    width: 567px;
+  }
+
+  .video-wrapper {
+    position: relative;
+    margin-top: 150px;
+  }
+}

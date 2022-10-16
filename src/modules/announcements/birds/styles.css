@@ -1,0 +1,53 @@
+.announcements-birds {
+  position: absolute;
+  left: 0;
+  top: -10%;
+  left: 5%;
+}
+
+.announcements-birds-img {
+  max-height: 200px;
+  max-width: 400px;
+}
+
+@media (max-width: 992px) {
+  .announcements-birds {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    left: -5%;
+  }
+
+  .announcements-birds-img {
+    max-height: 200px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .announcements-birds {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    left: -15%;
+  }
+
+  .announcements-birds-img {
+    max-height: 200px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 578px) {
+  .announcements-birds {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    left: -5%;
+  }
+
+  .announcements-birds-img {
+    max-height: 200px;
+    max-width: 200px;
+  }
+}
