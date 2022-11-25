@@ -1,32 +1,36 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
-import { map } from "lodash";
+import { map, range } from "lodash";
+import moment from "moment";
+import "moment/locale/fr";
 
 import PrevArrow from 'assets/prev-arrow.png'
 import NextArrow from 'assets/next-arrow.png'
-import FiveStars from 'assets/five-stars.png'
+import Star from 'assets/star.png'
 import { TextBold, TextNormal, TextNormalGrey } from "components/text";
 import "./styles.css";
 
-export const CarouselItem = ({ children, width }) => {
+moment.locale('fr')
+
+export const CarouselItem = ({ user, date, stars, title, description }) => {
   return (
     <div className="carousel-item-custom">
       <div className="carousel-item-content">
         <div className="carousel-content-header">
-          <TextBold text="witch_lecture" />
-          <TextNormalGrey text="05 juliet 2022" />
-          <div>
-            <img style={{ flex: 0, width: 80, height: 20, alignSelf: "center" }} src={FiveStars} alt='five-stars' />
+          <TextBold text={user} />
+          <TextNormalGrey text={moment(date).format("Do MMMM YYYY")} />
+          <div style={{ flex: 0 }}>
+            {map(range(stars), star =>
+              <img id={star.id} style={{ width: 20, height: 20 }} src={Star} alt='five-stars' />
+            )}
           </div>
         </div>
         <TextNormal
           className="text-justify carousel-text"
-          text="Content here, content here, making it 
-        look like readable English. Many desktop 
-        publishing packages and web page editors now
-         use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)." />
+          text={description}
+        />
       </div>
-    </div>
+    </div >
   );
 };
 
@@ -48,7 +52,7 @@ const Carousel = ({ children }) => {
       if (!paused) {
         updateIndex(activeIndex + 1);
       }
-    }, 3000);
+    }, 8000);
 
     return () => {
       if (interval) {
@@ -63,7 +67,7 @@ const Carousel = ({ children }) => {
   });
 
   return (
-    <div className="carousel-wrapper-custom">
+    <div className="carousel-wrapper-custom mt-1">
       <div
         onClick={() => {
           updateIndex(activeIndex - 1);

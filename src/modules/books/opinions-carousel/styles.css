@@ -1,8 +1,7 @@
 .carousel-wrapper-custom {
   display: flex;
   align-items: center;
-  flex: 1;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .carousel-arrow {
@@ -19,17 +18,18 @@
 
 .inner-custom {
   white-space: nowrap;
-  transition: transform 1s;
+  transition: transform 2s;
 }
 
 .carousel-item-custom {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 250px;
+  height: 400px;
   background-color: #fffff3;
   color: #fff;
   width: 100%;
+  overflow-y: scroll;
 }
 
 .carousel-item-content {
@@ -48,8 +48,39 @@
 }
 
 .carousel-text {
-  max-width: 500px;
   white-space: pre-line;
   font-size: 16px;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-wrapper-custom {
+    display: flex;
+    align-items: center;
+    width: 90vh;
+  }
+}
+
+@media (max-width: 630px) {
+  .carousel-wrapper-custom {
+    display: flex;
+    align-items: center;
+    width: 70vh;
+  }
+
+  .carousel-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .carousel-wrapper-custom {
+    display: flex;
+    align-items: center;
+    width: 45vh;
+  }
+
+  .carousel-arrow {
+    display: none;
+  }
 }
