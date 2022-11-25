@@ -20,3 +20,9 @@
     margin-right: 50px;
   }
 }
+
+.opinions-title {
+  margin: auto;
+  transform: rotate(3deg);
+  font-size: 52px;
+}

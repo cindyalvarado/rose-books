@@ -39,8 +39,8 @@ const BooksPage = () => {
         <ShopNow />
         <Birds />
       </div>
-      <div className="d-flex flex-column flex-lg-row align-items-center">
-        <Points />
+      <div className="d-flex flex-column m-auto mt-4">
+        <Text className="opinions-title" text='quelques avis' />
         <OpinionsCarousel />
       </div>
     </PageContainer>
