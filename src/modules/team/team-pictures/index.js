@@ -10,7 +10,7 @@ import './styles.css'
 
 const Person = ({ src, alt, text, title }) => {
   return (
-    <div class="img-wrap col-sm-6 col-md-4 col-6">
+    <div class="img-wrap col-sm-12 col-md-6 col-lg-4">
       <img className='person col-12' src={src} alt={alt} />
       <div className="img-description p-4">
         <Text className="text-center mt-1" text={title} />
@@ -22,7 +22,7 @@ const Person = ({ src, alt, text, title }) => {
 
 const Other = ({ src, alt }) => {
   return (
-    <div class="img-wrap col-sm-6 col-md-4 col-6">
+    <div class="img-wrap col-sm-12 col-md-6 col-lg-4">
       <img className='person col-12' src={src} alt={alt} />
     </div>
   )

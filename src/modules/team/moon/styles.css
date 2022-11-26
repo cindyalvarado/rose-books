@@ -68,6 +68,24 @@
     position: absolute;
     transform: rotate(5deg);
     left: 40%;
-    top: 18%;
+    top: 16%;
+  }
+}
+
+@media (max-width: 578px) {
+  .face-img {
+    position: absolute;
+    max-height: 200px;
+  }
+
+  .moon-team-img {
+    padding-left: 50px;
+  }
+
+  .moon-title {
+    position: absolute;
+    transform: rotate(5deg);
+    left: 35%;
+    top: 12%;
   }
 }

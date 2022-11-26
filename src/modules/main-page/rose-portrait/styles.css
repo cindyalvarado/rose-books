@@ -3,15 +3,15 @@
   height: min-content;
   width: 150px;
   top: 11%;
-  left: 37%;
- 
 }
-.leaf{
-  position:absolute;
+
+.leaf {
+  position: absolute;
   top: -14.5%;
   left: 57.8%;
 }
-.points{
+
+.points {
   position: absolute;
   top: 50%;
   left: 20%;
