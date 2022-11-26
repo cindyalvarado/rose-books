@@ -11,10 +11,10 @@ import OpinionsCarousel from './opinions-carousel'
 const BooksPage = () => {
   return (
     <PageContainer className="books-page">
-      <div className="d-flex">
+      <div className="d-flex ml-5 pl-5">
         <Text className="books-title" text="livres" />
       </div>
-      <div className="d-flex flex-column flex-md-row mt-5">
+      <div className="d-flex flex-column flex-md-row mt-2">
         <SorceSorcerie className="flex-1" />
         <div className="flex-1 book-description p-4">
           <TextBold className="flex-1 text-justify" text="Embarquez dans une aventure fantasy teintée de romance, d’humour et d’amitiés qui défient les âges" />
