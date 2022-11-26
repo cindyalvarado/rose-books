@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import ReactSlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 
-import MenuNavigationImg from 'assets/navigation.png'
+import MenuNavigationImg from 'assets/burgerMenu.png'
 import './styles.css'
 
 const NavigationLink = ({ to, title }) => {
@@ -24,7 +24,7 @@ const Navigation = ({ className }) => {
     <div className={className}>
       <NavigationLink
         to="/"
-        title="début"
+        title="accueil"
       />
       <NavigationLink
         to="/books"
