@@ -1,7 +1,28 @@
 .title-editors {
   position: absolute;
   height: min-content;
-  top: 24%;
-  left: 39.5%;
+  top: 21%;
+  left: 39%;
   transform: rotate(5deg);
+}
+
+@media (max-width: 768px) {
+
+  .title-editors {
+    position: absolute;
+    height: min-content;
+    top: 21%;
+    left: 41%;
+    transform: rotate(5deg);
+  }
+}
+
+@media (max-width: 578px) {
+  .title-editors {
+    position: absolute;
+    height: min-content;
+    top: 21%;
+    left: 36%;
+    transform: rotate(5deg);
+  }
 }
