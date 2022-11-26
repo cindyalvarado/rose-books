@@ -8,6 +8,29 @@
   max-width: 1200px;
 }
 
+.img-wrap {
+  position: relative;
+  margin: auto;
+}
+
+.img-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 243, 0.85);
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 @media (max-width: 578px) {
   .team-pictures {
