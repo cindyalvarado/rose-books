@@ -12,9 +12,9 @@ import "./styles.css";
 
 moment.locale('fr')
 
-export const CarouselItem = ({ user, date, stars, title, description }) => {
+export const CarouselItem = ({ key, user, date, stars, title, description }) => {
   return (
-    <div className="carousel-item-custom">
+    <div key={key} className="carousel-item-custom">
       <div className="carousel-item-content">
         <div className="carousel-content-header">
           <TextBold text={user} />

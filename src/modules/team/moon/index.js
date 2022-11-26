@@ -6,7 +6,7 @@ import { Text } from 'components/text'
 
 const TeamTitle = ({ className }) => {
   return (
-    <div className="moon-team d-flex flex-column flex-md-row">
+    <div className="moon-team d-flex flex-column flex-md-row mt-5">
       <img className="face-img" src={Face} alt="face" />
       <img className="moon-team-img flex-1" src={Moon} alt="moon-team" />
       <Text text="équipe éditoriale" className="moon-title" />

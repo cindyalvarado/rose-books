@@ -24,6 +24,7 @@ export default function OpinionsCarousel() {
           stars={opinion?.stars}
           title={opinion?.title[0]?.text}
           description={opinion?.description[0]?.text}
+          key={key}
         />
       )}
     </Carousel>
