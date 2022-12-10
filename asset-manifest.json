@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rose-books/static/css/main.d2ffb565.css",
-    "main.js": "/rose-books/static/js/main.bf182719.js",
+    "main.js": "/rose-books/static/js/main.90a71974.js",
     "static/js/787.6e3f461b.chunk.js": "/rose-books/static/js/787.6e3f461b.chunk.js",
     "static/media/source-sorciere.mp4": "/rose-books/static/media/source-sorciere.7c70eb133fd8112a7fdf.mp4",
     "static/media/main-page.png": "/rose-books/static/media/main-page.c2c4157a7e87c4026688.png",
@@ -37,11 +37,11 @@
     "static/media/face.png": "/rose-books/static/media/face.3ebc6fb63a7609a606d3.png",
     "index.html": "/rose-books/index.html",
     "main.d2ffb565.css.map": "/rose-books/static/css/main.d2ffb565.css.map",
-    "main.bf182719.js.map": "/rose-books/static/js/main.bf182719.js.map",
+    "main.90a71974.js.map": "/rose-books/static/js/main.90a71974.js.map",
     "787.6e3f461b.chunk.js.map": "/rose-books/static/js/787.6e3f461b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ffb565.css",
-    "static/js/main.bf182719.js"
+    "static/js/main.90a71974.js"
   ]
 }
