@@ -1,0 +1,48 @@
+.link {
+  text-decoration: none !important;
+}
+
+.link :hover {
+  font-weight: 700 !important;
+}
+
+.events-info {
+  position: relative;
+}
+
+.events-info-img {
+  width: 800px;
+  margin-left: 0px;
+  align-self: baseline;
+  z-index: 2;
+}
+
+.events-info-container {
+  top: 20%;
+  left: 22%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  z-index: 3;
+}
+
+.events-info-title {
+  font-size: 54px;
+}
+
+.events-info-date-time {
+  font-size: 32px;
+}
+
+.events-info-place {
+  font-size: 20px;
+}
+
+.events-info-address {
+  font-size: 20px;
+}
+
+.events-info-desc {
+  font-size: 24px;
+}

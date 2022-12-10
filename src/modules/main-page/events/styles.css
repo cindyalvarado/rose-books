@@ -1,0 +1,39 @@
+.title-events {
+  position: absolute;
+  height: min-content;
+  top: 28%;
+  left: 25%;
+  transform: rotate(-30deg);
+}
+
+@media (max-width: 992px) {
+
+  .title-events {
+    position: absolute;
+    height: min-content;
+    top: 30%;
+    left: 35%;
+    transform: rotate(-30deg);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .title-events {
+    position: absolute;
+    height: min-content;
+    top: 30%;
+    left: 35%;
+    transform: rotate(-30deg);
+  }
+}
+
+@media (max-width: 578px) {
+  .title-events {
+    position: absolute;
+    height: min-content;
+    top: 28%;
+    left: 25%;
+    transform: rotate(-30deg);
+  }
+}

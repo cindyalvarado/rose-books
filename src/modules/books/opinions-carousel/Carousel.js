@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useSwipeable } from "react-swipeable";
+import React, { useState } from "react";
 import { map, range } from "lodash";
 import moment from "moment";
 import "moment/locale/fr";

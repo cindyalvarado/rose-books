@@ -10,6 +10,8 @@ import Books from "./modules/books"
 import About from "modules/about";
 import Announcements from "modules/announcements";
 import Team from "modules/team";
+import Events from "modules/events";
+import NewsletterPage from "modules/newsletter";
 
 const App = () => {
   return (
@@ -21,7 +23,8 @@ const App = () => {
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/about" element={<About />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/newsletter" element={<h1>Newsletter</h1>} />
+          <Route path="/newsletter" element={<NewsletterPage />} />
+          <Route path="/events" element={<Events />} />
         </Routes>
       </div>
     </Router>
