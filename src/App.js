@@ -13,7 +13,7 @@ import Team from "modules/team";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="d-flex flex-column align-items-center">
         <Routes>
           <Route path="/" element={<MainPage />} />
