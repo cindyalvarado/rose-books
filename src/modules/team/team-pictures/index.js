@@ -12,9 +12,9 @@ const Person = ({ src, alt, text, title }) => {
   return (
     <div class="img-wrap col-sm-12 col-md-6 col-lg-4">
       <img className='person col-12' src={src} alt={alt} />
-      <div className="img-description p-4">
-        <Text className="text-center mt-1" text={title} />
-        <TextNormal className="text-center mt-1 mt-lg-5" text={text} />
+      <div className="img-description d-flex flex-column justify-content-center p-4 m-auto">
+        <Text className="text-center" text={title} />
+        <TextNormal className="text-center mt-1" text={text} />
       </div>
     </div>
   )

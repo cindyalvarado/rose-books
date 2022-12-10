@@ -7,6 +7,7 @@ import Trailers from "./trailers";
 import Newsletters from "./newsletters";
 import BirdsSubtitle from "./birds";
 import "./main-page.css"
+import Events from "./events";
 
 const MainPage = () => {
   return (
@@ -22,7 +23,8 @@ const MainPage = () => {
         <Editors />
         <Trailers />
       </div>
-      <div className="d-flex align-items-end justify-content-end mt-5">
+      <div className="d-flex flex-column flex-lg-row mt-1">
+        <Events />
         <Newsletters />
       </div>
     </PageContainer>

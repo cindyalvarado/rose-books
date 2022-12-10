@@ -46,6 +46,10 @@ const Navigation = ({ className }) => {
         to="/newsletter"
         title="newsletter"
       />
+      <NavigationLink
+        to="/events"
+        title="évènements"
+      />
     </div>
   )
 }

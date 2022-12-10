@@ -13,6 +13,7 @@
 .video-wrapper {
   position: relative;
   margin-top: 200px;
+  min-height: 1000px;
 }
 
 .announcements-video {
@@ -49,6 +50,7 @@
   .video-wrapper {
     position: relative;
     margin-top: 150px;
+    min-height: 600px;
   }
 }
 
@@ -75,5 +77,6 @@
   .video-wrapper {
     position: relative;
     margin-top: 150px;
+    min-height: 200px;
   }
 }
