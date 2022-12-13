@@ -1,0 +1,51 @@
+button {
+  all: unset;
+}
+
+.news-reg-input {
+  min-width: 300px;
+  min-height: 50px;
+  font-family: "Caveat-Regular";
+  font-size: 36px;
+  text-align: center;
+  border-color: rgba(109, 86, 67, 255);
+  border-radius: 5px;
+}
+
+.reg-form-btn {
+  position: relative;
+}
+
+.reg-form-btn-img {
+  max-width: 400px;
+}
+
+.reg-form-btn-text {
+  position: absolute;
+  top: 20%;
+}
+
+.reg-thanks-text {
+  max-width: 400px;
+}
+
+@media (max-width: 420px) {
+  .reg-form-btn-img {
+    max-width: 365px;
+  }
+
+  .news-reg-input {
+    max-width: 320px;
+    min-height: 50px;
+    font-family: "Caveat-Regular";
+    font-size: 30px;
+    text-align: center;
+    border-color: rgba(109, 86, 67, 255);
+    border-radius: 5px;
+  }
+
+  .reg-thanks-text {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

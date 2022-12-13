@@ -2,8 +2,12 @@
   position: absolute;
   height: min-content;
   top: 28%;
-  left: 25%;
-  transform: rotate(-30deg);
+  left: 28%;
+  transform: rotate(-25deg);
+}
+
+.title-events-img {
+  max-width: 400px;
 }
 
 @media (max-width: 992px) {
@@ -11,9 +15,9 @@
   .title-events {
     position: absolute;
     height: min-content;
-    top: 30%;
-    left: 35%;
-    transform: rotate(-30deg);
+    top: 25%;
+    left: 38%;
+    transform: rotate(-25deg);
   }
 }
 
@@ -24,7 +28,7 @@
     height: min-content;
     top: 30%;
     left: 35%;
-    transform: rotate(-30deg);
+    transform: rotate(-25deg);
   }
 }
 
@@ -32,8 +36,8 @@
   .title-events {
     position: absolute;
     height: min-content;
-    top: 28%;
-    left: 25%;
-    transform: rotate(-30deg);
+    top: 26%;
+    left: 20%;
+    transform: rotate(-25deg);
   }
 }
