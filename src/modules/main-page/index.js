@@ -13,7 +13,7 @@ const MainPage = () => {
   return (
     <PageContainer className="main-container">
       <TextBold className="main-title" text="Rose K. Beira" />
-      <TextNormal className="main-subtitle" text="« La magie doit exister, sinon la vie n'a aucun sens »" />
+      <TextNormal className="main-subtitle" text="« La magie doit exister. Sinon, la vie n'a aucun sens. »" />
       <BirdsSubtitle />
       <div className="d-flex flex-column-reverse flex-lg-row mt-5">
         <Books />

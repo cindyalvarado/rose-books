@@ -36,11 +36,11 @@ const Navigation = ({ className }) => {
       />
       <NavigationLink
         to="/team"
-        title="equipe"
+        title="équipe"
       />
       <NavigationLink
         to="/announcements"
-        title="annonces"
+        title="vidéos"
       />
       <NavigationLink
         to="/newsletter"

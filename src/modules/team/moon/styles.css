@@ -9,6 +9,7 @@
 
 .moon-team-img {
   padding-left: 100px;
+  max-height: 500px;
 }
 
 .moon-title {
@@ -86,6 +87,6 @@
     position: absolute;
     transform: rotate(5deg);
     left: 35%;
-    top: 12%;
+    top: 16%;
   }
 }

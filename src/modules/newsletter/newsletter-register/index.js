@@ -1,7 +1,8 @@
 import BtnImg from 'assets/button.png'
-import { Text, TextNormal } from 'components/text'
+import { Text } from 'components/text'
 import { useEffect, useState } from 'react';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
+import Smile from 'assets/smiley.png'
 import './styles.css'
 
 const RegisterForm = ({ status, message, onValidated }) => {
@@ -24,18 +25,20 @@ const RegisterForm = ({ status, message, onValidated }) => {
     if (status === "success") setEmail('');
   }, [status])
 
-
   return (
     <div className="d-flex justify-content-center align-items-center" style={{ height: 250 }}>
       {status === "success" ?
-        <Text className="text-center reg-thanks-text" text="Vous vous êtes inscrit avec succès, merci!" />
+        <div className='d-flex justify-content-center'>
+          <Text className="text-center reg-thanks-text" text="Merci et à bientôt !" />
+          <img src={Smile} style={{ width: 30, height: 30, margin: 'auto' }} alt="merci-smile" />
+        </div>
         :
         <form
           onSubmit={handleSubmit}
           className="d-flex flex-column justify-content-center align-items-center mt-5">
           <input
             disabled={status === "sending"}
-            placeholder="écrivez votre e-mail ici"
+            placeholder="Écris ton e-mail ici"
             className="news-reg-input"
             type="email"
             onChange={handleChange}

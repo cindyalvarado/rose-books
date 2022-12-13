@@ -15,7 +15,7 @@ const Announcements = () => {
       <div className="video-wrapper d-flex justify-content-center">
         <Birds />
         <Points />
-        <Text text="bandes annonces" className="announcements-text" />
+        <Text text="vidéos" className="announcements-text" />
         <img src={VideoBg} className="video-bg" alt="video-bg" />
         <video controls className="announcements-video">
           <source src={SourceSorciereVideo} />

@@ -40,6 +40,16 @@ const Footer = ({ children, className }) => {
           <TextNormal text="©2021 Rose K. Beira- Tous droits réservés" />
         </>
       }
+      <div className="d-flex w-100 created-by">
+        <TextNormal text="Created by:" className="mr-1 created-by-text" />
+        <a href="https://www.linkedin.com/in/cindy-paola-alvarado-mu%C3%B1oz-b7b6a11b6/" target="_blank" rel="noopener noreferrer">
+          <TextNormal className="created-by-text" text="Cindy Alvarado" />
+        </a>
+        <TextNormal className="created-by-text" text="&" />
+        <a href="https://www.linkedin.com/in/barbara-rekowska-10417b14a/" target="_blank" rel="noopener noreferrer">
+          <TextNormal className="created-by-text" text="Barbara Rekowska" />
+        </a>
+      </div>
     </div>
   )
 }

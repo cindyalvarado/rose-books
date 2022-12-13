@@ -27,6 +27,7 @@ button {
 
 .reg-thanks-text {
   max-width: 400px;
+  margin-right: 20px;
 }
 
 @media (max-width: 420px) {
