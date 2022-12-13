@@ -8,7 +8,7 @@ const Events = ({ className }) => {
   return (
     <ImageLink className="flex-1 mb-5" to="/events">
       <Text className="title-events" text="évènements" />
-      <img style={{ maxWidth: 400 }} src={EventsMapImg} alt="moon" />
+      <img className="title-events-img" src={EventsMapImg} alt="moon" />
     </ImageLink>
   )
 }

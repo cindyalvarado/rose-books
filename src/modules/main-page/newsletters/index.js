@@ -28,9 +28,9 @@ const Newsletters = ({ className }) => {
   }
 
   return (
-    <ImageLink>
+    <ImageLink to="/newsletter">
       <Text className="title-newsletters" text={windowWidth > 550 ? "la newsletter des 4 saisons" : "la newsletter"} />
-      <img style={{ maxWidth: '100vw', minHeight: 140 }} src={NewslettersImage} alt="newsletter-img" />
+      <img className="newsletter-img" src={NewslettersImage} alt="newsletter-img" />
     </ImageLink>
   )
 }

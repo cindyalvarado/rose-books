@@ -1,0 +1,66 @@
+.news-title {
+  position: relative;
+  margin-top: 100px;
+}
+
+.news-title-text {
+  position: absolute;
+  top: 54%;
+  font-size: 50px;
+}
+
+.news-title-img {}
+
+@media (max-width: 992px) {
+  .news-title-text {
+    position: absolute;
+    top: 54%;
+    font-size: 50px;
+  }
+
+  .news-title-img {
+    max-width: 800px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .news-title-text {
+    position: absolute;
+    top: 54%;
+    font-size: 44px;
+  }
+
+  .news-title-img {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 578px) {
+  .news-title {
+    position: relative;
+    margin-top: 70px;
+  }
+
+  .news-title-text {
+    position: absolute;
+    top: 54%;
+    font-size: 30px;
+  }
+
+  .news-title-img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .news-title-text {
+    position: absolute;
+    top: 54%;
+    font-size: 30px;
+  }
+
+  .news-title-img {
+    max-width: 350px;
+  }
+}

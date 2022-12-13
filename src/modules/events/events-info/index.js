@@ -40,7 +40,7 @@ const EventsInfo = ({ eventDescription, eventDate, eventTime, eventPlaceName, ev
             }
           </div>
         </div>
-        <TextNormal text={eventDescription} className="mt-4" />
+        <TextNormal text={eventDescription} />
       </div>
     </div>
   )
